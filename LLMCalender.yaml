@@ -54,6 +54,7 @@ sequence:
               start=e.start,
               end=e.end,
               summary=e.summary,
+              description=e.description,
               location=(e.location if 'location' in e else '')
             ) %}
             {% set ns.events = ns.events + [ev] %}
